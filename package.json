@@ -4,7 +4,12 @@
   "description": "lightweight,Reusable react ui component library",
   "private": false,
   "main": "dist/index.js",
-  "author": "pranshu_44",
+  "author": "pranshu_44 <pranshu.shah23@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pranshushah/react-ui-lib-pranshu"
+  },
   "keywords": [
     "react",
     "react-component",
@@ -20,10 +25,13 @@
     "react-dom": "^16.11.0"
   },
   "scripts": {
-    "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "build": "babel src -d dist --copy-files",
+    "prepublish": "rm -rf dist && mkdir dist && npm run build"
   },
+  "bugs": {
+    "url": "https://github.com/pranshushah/react-ui-lib-pranshu/issues"
+  },
+  "homepage": "https://github.com/pranshushah/react-ui-lib-pranshu",
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -45,6 +53,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
     "babel-plugin-styled-components": "^1.10.6",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
