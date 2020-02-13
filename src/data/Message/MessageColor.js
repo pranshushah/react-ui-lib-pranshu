@@ -1,0 +1,41 @@
+const COLOR = {
+  POSITIVE: '#2c662d',
+  NEGATIVE: '#9f3a38',
+  INFO: '#276f86',
+  WARNING: '#573a08',
+  DEFAULT: 'rgba(0,0,0,.87)',
+  red: '#db2828',
+  olive: '#8abc1e',
+  green: '#1ebc30',
+  black: 'rgba(255,255,255,.9)',
+  brown: '#a5673f',
+  pink: '#e03997',
+  teal: '#10a3a3',
+  orange: '#f2711c',
+  yellow: '#b58105',
+  blue: '#2185d0',
+  violet: '#6435c9',
+  purple: '#a333c8',
+};
+
+const BGCOLOR = {
+  POSITIVE: '#fcfff5',
+  NEGATIVE: '#fff6f6',
+  INFO: '#f8f8f9',
+  WARNING: '#fffaf3',
+  DEFAULT: '#f8f8f9',
+  red: '#ffe8e6',
+  olive: '#fbfdef',
+  green: '#e5f9e7',
+  black: '#1b1c1d',
+  brown: '#f1e2d3',
+  pink: '#ffe3fb',
+  teal: '#e1f7f7',
+  orange: '#ffedde',
+  yellow: '#fff8db',
+  blue: '#dff0ff',
+  violet: '#eae7ff',
+  purple: '#f6e7ff',
+};
+
+export { COLOR, BGCOLOR };
